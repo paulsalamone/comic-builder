@@ -12,7 +12,7 @@
   height: 70vh;
 }
 
-.dugout, .ballfield {
+.dugout, .field {
 border: 3px solid black;
 }
 
@@ -29,6 +29,8 @@ border: 2px solid black;
 .field .dropzone {
   height: 500px;
   width: 500px;
+  position: relative;
+  overflow: hidden;
 }
 
 #player-1 {
@@ -36,4 +38,8 @@ border: 2px solid black;
   height: 150px;
   width: 150px;
   box-shadow: 2px 2px 5px gray;
+
+  position: relative;
+  /* left: initial;
+  top: initial; */
 }
