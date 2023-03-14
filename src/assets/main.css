@@ -1,0 +1,39 @@
+@import './base.css';
+
+* {
+  border: .5px dotted grey;
+  margin: 3px;
+  padding: 3px;
+}
+
+.stadium {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  height: 70vh;
+}
+
+.dugout, .ballfield {
+border: 3px solid black;
+}
+
+.dropzone {
+border: 2px solid black;
+}
+
+.dugout .dropzone {
+  background-color: #ccc;
+  height: 60vh;
+  width: 165px;
+}
+
+.field .dropzone {
+  height: 500px;
+  width: 500px;
+}
+
+#player-1 {
+  background-color: red;
+  height: 150px;
+  width: 150px;
+  box-shadow: 2px 2px 5px gray;
+}
